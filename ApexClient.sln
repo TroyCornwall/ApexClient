@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApexClient", "ApexClient\ApexClient.csproj", "{3E77A53B-E310-47F0-986C-0BE0BC935472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFusionClient", "Examples\TestFusionClient\TestFusionClient.csproj", "{1150C23C-9377-4B7E-8884-254FDC1D1E6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLocalClient", "Examples\TestLocalClient\TestLocalClient.csproj", "{13B5666E-F12E-4C0D-816D-F85E8156ABDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E77A53B-E310-47F0-986C-0BE0BC935472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E77A53B-E310-47F0-986C-0BE0BC935472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E77A53B-E310-47F0-986C-0BE0BC935472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E77A53B-E310-47F0-986C-0BE0BC935472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1150C23C-9377-4B7E-8884-254FDC1D1E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1150C23C-9377-4B7E-8884-254FDC1D1E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1150C23C-9377-4B7E-8884-254FDC1D1E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1150C23C-9377-4B7E-8884-254FDC1D1E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B5666E-F12E-4C0D-816D-F85E8156ABDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B5666E-F12E-4C0D-816D-F85E8156ABDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B5666E-F12E-4C0D-816D-F85E8156ABDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B5666E-F12E-4C0D-816D-F85E8156ABDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
