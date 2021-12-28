@@ -87,4 +87,16 @@ public class FusionApexClient : IApexClient
         return statusResponse;
         
     }
+
+    public async Task<LogsResponse> GetLogs()
+    {
+        // logs?names%5B%5D=olog&names%5B%5D=ilog&names%5B%5D=mlog&days=1&date=2021-12-28T18%3A41%3A55%2B13%3A00&_=1640652009338
+        var logs = 
+            await GetUrl("logs")
+                .SetQueryParam("days","1")
+                .SetQueryParam("names[]", new[] {"ilog", "olog", "mlog"})
+                .SetQueryParam("date", DateTimeOffset.Now.ToString("o"))
+                .GetJsonAsync<LogsResponse>();
+        return logs;
+    }
 }

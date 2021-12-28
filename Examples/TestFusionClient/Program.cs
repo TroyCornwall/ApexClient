@@ -30,6 +30,8 @@ var atoHi = status.Inputs.SingleOrDefault(input => input.Name.Equals("ATO_Hi"));
 var atoLo = status.Inputs.SingleOrDefault(input => input.Name.Equals("ATO_Lo"));
 
 var mLog = await apexClient.GetTestResults();
+var logs = await apexClient.GetLogs();
+
 
 var alk = mLog.Where(x => x.GetTestType() == TestResult.TestType.Alk).OrderByDescending(x => x.Date).First();
 var calc = mLog.Where(x => x.GetTestType() == TestResult.TestType.Calcium).OrderByDescending(x => x.Date).First();

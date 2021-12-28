@@ -8,4 +8,5 @@ public interface IApexClient
     public Task LoginAsync();
     public Task<StatusResponse> GetStatus();
     public Task<TestResult[]> GetTestResults();
+    public Task<LogsResponse> GetLogs();
 }

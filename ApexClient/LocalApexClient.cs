@@ -61,4 +61,9 @@ public class LocalApexClient : IApexClient
         //Local Apex service doesn't have test results..
         throw new NotImplementedException();
     }
+
+    public Task<LogsResponse> GetLogs()
+    {
+        throw new NotImplementedException();
+    }
 }
